@@ -1,0 +1,10 @@
+.toolbar {
+    display: flex;
+    width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.filter:nth-child(n+2) {
+    margin-left: 25px;
+}

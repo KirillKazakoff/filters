@@ -1,0 +1,17 @@
+.ProjectList {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.project {
+    width: 33%;
+}
+
+.img {
+    width: 100%;
+}
