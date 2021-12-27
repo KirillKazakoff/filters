@@ -44,6 +44,9 @@
         "webpack-merge": "^5.8.0"
     },
     "dependencies": {
+        "@emotion/react": "^11.7.1",
+        "@emotion/styled": "^11.6.0",
+        "@mui/material": "^5.2.5",
         "babel-eslint": "^10.1.0",
         "core-js": "^3.14.0",
         "encoding-japanese": "^1.0.30",

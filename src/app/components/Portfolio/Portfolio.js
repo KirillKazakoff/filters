@@ -13,11 +13,11 @@ export default function Portfolio() {
     const onSelectFilter = (e) => {
         const { target } = e;
         const receivedF = target.textContent;
+
+        if (target.id !== 'filter') return;
         setFilter(receivedF);
 
-        const newList = receivedF === 'All'
-            ? projects
-            : filterList(receivedF);
+        const newList = receivedF === 'All' ? projects : filterList(receivedF);
 
         setList(newList);
     };
